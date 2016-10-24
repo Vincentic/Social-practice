@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+ 	<meta http-equiv="Content-Type"  charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="Generator" content="sublime_text">
+    <meta name="Author" content="Limingxin">
+    <meta name="Keywords" content="山东理工大学 青春在线网站 专题 社会实践 sdut youthol social practice">
+    <meta name="Description" content="青春在线网站2016年暑期社会实践专题">
+    <link rel="shortcut icon" href="http://youthol.cn/favicon.ico" />
+    <link rel="stylesheet" href="static/style.css" media="all">
+    <link href="static/default_blue.css" rel="stylesheet" type="text/css">
+    <title>2016年暑期社会实践</title>
+    <script type="text/javascript" src="static/js/jquery.min.js"></script>
+	<script type="text/javascript" src="static/js/jquery.sgallery.js"></script>
+<body>
+    <div class="header-box">
+        <div class="sp-header">
+            <a href="http://youthol.cn">
+                <img src="static/logo.png" alt="青春在线" class="logo">
+            </a>
+            <img src="static/2016.png" alt="" class="hint1">
+            <img src="static/topic.png" alt="" class="hint2">
+            <ul class="nav">
+                <li><a href="http://mp.weixin.qq.com/s?__biz=MjM5NjM5NjkwMA==&mid=2650876753&idx=1&sn=de0bb758ce51377a677227ecc9afa763&scene=22&srcid=0720BAMv15VR76EtTBmV7TCj#rd" target="_blank">投稿须知</a></li>
+                <li><a href="#st">风采展示</a></li>
+                <li><a href="#news">实践快讯</a></li>
+                <li><a href="#arrange">部署安排</a></li>
+                <li><a href="#sum">总结感悟</a></li>
+                <li><a href="#team">团队介绍</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="hundred-box">
+        <div class="con-box1" id="st">
+            <img class="box1-img" src="static/con-box1.png" alt="椋庨噰灞曠ず"/>
+            <p class="showtime">风采展示 SHOW TIME</p>
+            <!-- box的showTime -->
+            <div class="box1-st">
+                <ul class="box1-item">
+                   <script type="text/javascript" src="http://www.youthol.cn/index.php?m=dbsource&c=call&a=get&id=16"></script>
+                    <a href="http://www.youthol.cn/index.php?m=content&c=index&a=lists&catid=596" target="_blank" class="more">MORE >></a>
+                </ul>
+
+                <div class="banner">
+				    <!-- <script type="text/javascript" src="http://www.youthol.cn/index.php?m=dbsource&c=call&a=get&id=26"></script> -->
+				    <div class="FocusPic">
+						<div class="content" id="main-slide">
+							<div class="changeDiv">
+								<script type="text/javascript" src="http://www.youthol.cn/index.php?m=dbsource&c=call&a=get&id=26"></script>
+							</div>
+						</div>
+	                </div>
+	            </div>
+	        </div>
+		</div>
+		<div class="con-box2">
+		      
+	        <div class="box2-item" id="news">
+	            <img src="static/box2-title.jpg" />
+	            <p class="box2-tit">实践快讯</p>
+	            <ul class="box2-item-list">
+	                <script type="text/javascript" src="http://www.youthol.cn/index.php?m=dbsource&c=call&a=get&id=17"></script>
+	                <a href="http://www.youthol.cn/index.php?m=content&c=index&a=lists&catid=597" target="_blank" class="more">MORE >></a>
+	            </ul>
+	        </div>
+	        <div class="box2-item" id="arrange">
+	            <img src="static/box2-title.jpg" />
+	            <p class="box2-tit">部署安排</p>
+	            <ul class="box2-item-list">
+	                <script type="text/javascript" src="http://www.youthol.cn/index.php?m=dbsource&c=call&a=get&id=18"></script>
+	                <a href="http://www.youthol.cn/index.php?m=content&c=index&a=lists&catid=597" target="_blank" class="more">MORE >></a>
+	            </ul>
+	        </div> 
+	    </div>
+	    <div class="con-box3">
+	        <div class="box3-item" id="sum">
+	            <div class="box3-tit"><p>总结感悟<span><a href="http://www.youthol.cn/index.php?m=content&c=index&a=lists&catid=599" target="_blank">MORE >></a></span></p></div>
+	            <ul class="box3-item-list">
+	               <script type="text/javascript" src="http://www.youthol.cn/index.php?m=dbsource&c=call&a=get&id=19"></script>
+	            </ul>
+	        </div>
+	        <div class="box3-item" id="team">
+	            <div class="box3-tit"><p>团队介绍<span><a href="http://www.youthol.cn/index.php?m=content&c=index&a=lists&catid=641" target="_blank">MORE >></a></span></p></div>
+	            <ul class="box3-item-list">
+	                <script type="text/javascript" src="http://www.youthol.cn/index.php?m=dbsource&c=call&a=get&id=25"></script>
+	            </ul>
+	        </div> 
+	    </div>
+	    <div class="sp-footer">
+	        <p class="author">美工：丁欢 程序：李明新</p>
+	        <p class="copyright">山东理工大学<a href="http://youthol.cn">青春在线</a>网站 | <a href="http://www.youthol.cn/about/">关于我们</a></p>
+	    </div>
+	</div>
+	<script type="text/javascript"> 
+	$(function(){
+		new slide("#main-slide","cur",500,375,1);//焦点图
+		new SwapTab(".SwapTab","span",".tab-content","ul","fb");//排行TAB
+	})
+	</script>
+</body>
+</html>
